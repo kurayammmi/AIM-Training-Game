@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIM Training | Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="screen">
+        <div class="container">
+            <h1 class="screen__title">aim training</h1>
+            <a href="#" class="screen__start" id="start">start</a>
+            <div class="decor">
+              <span class="cross" data-speed="2"></span>
+              <span class="cross" data-speed="-9"></span>
+              <span class="cross" data-speed="5"></span>
+              <span class="cross" data-speed="6"></span>
+              <span class="cross" data-speed="-7"></span>
+              <span class="cross" data-speed="-5"></span>
+              <span class="cross" data-speed="5"></span>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="screen">
+        <h1 class="screen__title">Choose time</h1>
+        <ul class="time-list" id="time-list">
+          <li>
+            <button class="time-btn" data-time="5">
+              5 seconds
+            </button>
+          </li>
+          <li>
+            <button class="time-btn" data-time="10">
+              10 seconds
+            </button>
+          </li>
+          <li>
+            <button class="time-btn" data-time="20">
+              20 seconds
+            </button>
+          </li>
+          <li>
+            <button class="time-btn" data-time="30">
+              30 seconds
+            </button>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="screen">
+        <h3 class="screen__time">TIME <span id="time">00:00</span></h3>
+        <div class="board" id="board"></div>
+        <a href="#" class="restart">restart</a>
+      </div>
+
+  
+
+
+     
+
+
+      <!-- cursor -->
+      <div class="cursor"></div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
